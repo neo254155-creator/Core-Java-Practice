@@ -12,6 +12,7 @@ public class PIP extends Thread{
             System.out.println("producer"+count );
             System.out.println(flush());
             count++;
+            Thread.sleep(10);
         }
     }
 }
@@ -29,6 +30,7 @@ public class pop extends Thread{
             
             System.out.println("consumer"+x);
             System.out.println(flush());
+            Thread.sleep(10);
             
 
             
