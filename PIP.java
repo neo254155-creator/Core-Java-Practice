@@ -30,10 +30,6 @@ public class pop extends Thread{
             
             System.out.println("consumer"+x);
             System.out.println(flush());
-            
-            
-
-            
         }
 
     }
